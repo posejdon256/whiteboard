@@ -1,0 +1,29 @@
+/* CSS declarations go here */
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100%;
+}
+html{
+  height: 100%;
+}
+.left-bar{
+  min-width: 30%;
+}
+.right-table{
+  min-width: 60%;
+}
+.content-container{
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  min-height: 90%
+}
+.main-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 100%;
+}
